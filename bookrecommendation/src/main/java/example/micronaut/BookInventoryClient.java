@@ -7,7 +7,7 @@ import io.micronaut.http.client.annotation.Client;
 import io.micronaut.retry.annotation.Recoverable;
 import reactor.core.publisher.Mono;
 
-@Client("http://localhost:8082")
+@Client(id = "bookinventory")
 @Recoverable(api = BookInventoryOperations.class)
 interface BookInventoryClient extends BookInventoryOperations {
 

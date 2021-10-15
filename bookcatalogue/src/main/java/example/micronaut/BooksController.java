@@ -13,6 +13,7 @@ public class BooksController {
         return List.of(
                 new Book("1491950358", "Building Microservices"),
                 new Book("1680502395", "Release It!"),
+                new Book("1491950359", "Test It!"),
                 new Book("0321601912", "Continuous Delivery:")
         );
     }

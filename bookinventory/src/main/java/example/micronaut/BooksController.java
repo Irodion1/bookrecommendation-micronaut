@@ -20,6 +20,9 @@ public class BooksController {
     }
 
     private Optional<BookInventory> bookInventoryByIsbn(String isbn) {
+        if ("1491950359".equals(isbn)) {
+            return Optional.of(new BookInventory(isbn, 123));
+        }
         if ("1491950358".equals(isbn)) {
             return Optional.of(new BookInventory(isbn, 4));
         }
