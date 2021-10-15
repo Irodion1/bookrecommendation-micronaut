@@ -1,2 +1,2 @@
 # bookrecommendation-micronaut
-Source: https://guides.micronaut.io/latest/micronaut-microservices-services-discover-consul-gradle-kotlin.html#help-with-the-micronaut-framework
+Source(just repeated with rewrite to Java): https://guides.micronaut.io/latest/micronaut-microservices-services-discover-consul-gradle-kotlin.html#help-with-the-micronaut-framework
